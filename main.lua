@@ -7,16 +7,16 @@ end
 
 function love.update(dt)
  if love.keyboard.isDown("up") then
-    player.y = player.y - dt*100
+    player.y = player.y - dt*500
   end
   if love.keyboard.isDown("down") then
-    player.y = player.y + dt*100
+    player.y = player.y + dt*500
   end
   if love.keyboard.isDown("right") then
-    player.x = player.x + dt*100
+    player.x = player.x + dt*500
   end
   if love.keyboard.isDown("left") then
-    player.x = player.x - dt*100
+    player.x = player.x - dt*500
   end
 end
 
