@@ -1,5 +1,5 @@
 function love.load()
-  img = love.graphics.newImage("garen.png")
+  img = love.graphics.newImage("DSC_0203.JPEG")
   player = {
     x = 0;
     y = 0;
