@@ -6,7 +6,7 @@ function love.load()
 end
 
 function love.update(dt)
-  player.x = player.x + dt
+  player.x = player.x + dt*50
 end
 
 
