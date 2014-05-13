@@ -1,1 +1,13 @@
-Hej en Lua Fil!
+function love.load()
+  
+  
+end
+
+function load.update(dt)
+  
+end
+
+
+function love.draw()
+
+end
