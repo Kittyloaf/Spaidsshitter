@@ -2,7 +2,7 @@ function love.load()
   
 end
 
-function load.update(dt)
+function love.update(dt)
   
 end
 
