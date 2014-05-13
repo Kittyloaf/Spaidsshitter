@@ -1,1 +1,2 @@
-C:\Program Files (x86)\LOVE
+"C:\Program Files (x86)\LOVE" "%CD%"
+exit /b
