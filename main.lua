@@ -6,7 +6,7 @@ function love.load()
 end
 
 function love.update(dt)
-  
+  player.x = player.x + 1
 end
 
 
