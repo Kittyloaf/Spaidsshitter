@@ -7,7 +7,18 @@ function love.load()
 end
 
 function love.update(dt)
-  player.x = player.x + dt*50
+ if love.keyboard.isDown("up") then
+    player.y = player.y - dt*100
+  end
+  if love.keyboard.isDown("up") then
+    player.y = player.y + dt*100
+  end
+  if love.keyboard.isDown("right") then
+    player.x = player.x + dt*100
+  end
+  if love.keyboard.isDown("left") then
+    player.x = player.x - dt*100
+  end
 end
 
 
