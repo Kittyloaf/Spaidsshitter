@@ -11,5 +11,5 @@ end
 
 
 function love.draw()
-  love.graphics.rectangle("fill",player.x,player.y,50,50,)
+  love.graphics.rectangle("fill",player.x,player.y,50,50) 
 end
