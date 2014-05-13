@@ -1,5 +1,5 @@
 function love.load()
-  img = love.graphics.newImage(https://cloud.githubusercontent.com/assets/7569042/2957475/0ad46cf4-daa0-11e3-849a-af3f79ceb1ec.gif)
+  img = love.graphics.newImage("garen.png")
   player = {
     x = 0;
     y = 0;
