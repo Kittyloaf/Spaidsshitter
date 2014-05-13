@@ -9,7 +9,7 @@ function love.update(dt)
  if love.keyboard.isDown("up") then
     player.y = player.y - dt*100
   end
-  if love.keyboard.isDown("up") then
+  if love.keyboard.isDown("down") then
     player.y = player.y + dt*100
   end
   if love.keyboard.isDown("right") then
