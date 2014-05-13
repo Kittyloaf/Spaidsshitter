@@ -1,6 +1,4 @@
-require ("player")
 function love.load()
-  
   
 end
 
